@@ -11,6 +11,7 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.tool.xml;
 
+
 namespace POLIRUBRO
 {
     public class Facturacion_logica

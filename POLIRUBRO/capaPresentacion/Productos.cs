@@ -23,11 +23,10 @@ namespace POLIRUBRO.capaPresentacion
         Verificar verificar = new Verificar();
         private void Productos_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             dataGridView1.DataSource = cargarProducto.obtenerTabla();
             dataGridView1.AllowUserToAddRows = false;
-=======
->>>>>>> 781ee50e3b8861e477af4c59e157d4239117b9e6
+
             //Cargo inicialmente los valores a los Combo box desde la base de datos
             boxCategoria = cargarProducto.cargar_comboBox(boxCategoria, "Nombre_categoria", "Categoria");
             boxProveedor = cargarProducto.cargar_comboBox(boxProveedor, "Nombre_proveedor", "Proveedor");
@@ -100,7 +99,7 @@ namespace POLIRUBRO.capaPresentacion
 
         }
 
-<<<<<<< HEAD
+
         private void dataGridViewBuscar_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -180,8 +179,7 @@ namespace POLIRUBRO.capaPresentacion
 
             }
         }
-=======
-        
->>>>>>> 781ee50e3b8861e477af4c59e157d4239117b9e6
+
+       
     }
 }
